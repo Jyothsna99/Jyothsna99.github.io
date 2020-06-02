@@ -1,0 +1,112 @@
+body,html {
+  min-width:600px;
+  height:100%;
+  margin:0;
+  padding:0;
+overflow-x: hidden;
+}
+.explore,.design {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px 200px 500px; 
+    padding: 0;
+    padding-left: 0%;
+    margin:0;
+    text-align: left;
+    margin-top: 0%;
+    box-sizing: border-box;
+  }
+  .explore > div,.design>div {
+    padding: 30px;
+  }
+  .inner-addon { 
+    position: relative; 
+}
+.nav { margin-bottom: 0; }
+.dropdown { position: static;}
+.dropdown-menu { width: 100%; text-align: center; }
+.dropdown-menu>li { display: inline-block; }
+#topHeader{
+    padding:20px;
+}
+
+.ui-dialog-titlebar-close {
+  visibility: hidden;
+}
+
+.yrows{
+  border: 3px solid green;
+  padding: 5px;
+}
+.mycols{
+  border: 3px solid red;
+}
+.mycontainer{
+  background-color: aqua;
+}
+#bottomHeader{
+  border-bottom: 1px solid #7f8c8d;
+}
+
+#bottomHeader a{
+  color: #2c3e50;
+  font-weight: 600;
+  font-size: 0.89rem;
+}
+#topHeader a{
+    color: #2c3e50;
+  font-weight: 400;
+}
+#topHeader{
+    padding-left: 70px;
+    padding-right: 50px;
+}
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+nav ul li a {
+ font-size: 1.1rem;
+ font-weight: 600;
+}
+ 
+/* START : Footer */
+.full-footer{
+    padding: 20px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  background-color:#ecf0f1;
+}
+
+.full-footer a{
+    color: black;
+}
+.ball{
+    color:black;
+    -webkit-text-stroke-color:crimson;
+}
+
+.bottom-footer{
+    padding: 20px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 150px;
+}
+#topFooter{
+    border-bottom: 1px solid #7f8c8d;
+    padding-bottom: 150px; 
+}
+.thumbnail {
+  max-width: 350px;
+   overflow: hidden;
+ }
+ .vedioList{
+   padding-left: 70px;
+ }
+
+
+
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+    display:none !important;
+}
